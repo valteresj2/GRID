@@ -97,16 +97,16 @@ Discovered Subgroups (rules + metrics + explanations)
 
 ## Installation
 
-### From PyPI (recommended)
+### From wheel (recommended)
 
 ```bash
-pip install grid-discovery
+pip install grid_discovery-2.2.0-py3-none-any.whl
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/valteresj/grid-discovery.git
+git clone https://github.com/valteresj2/GRID.git
 cd grid-discovery
 pip install -e .
 ```
@@ -401,7 +401,8 @@ Runtime scales as approximately O(N^0.76) due to the adaptive sampling schedule.
 ### Requirements
 
 ```bash
-pip install grid-discovery openml pysubgroup wittgenstein prim scikit-learn pandas numpy
+pip install grid_discovery-2.2.0-py3-none-any.whl
+pip install openml pysubgroup wittgenstein prim scikit-learn pandas numpy
 ```
 
 ### Run All Experiments
